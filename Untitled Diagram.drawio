@@ -49,11 +49,11 @@
         <mxCell id="EuZr4Cig5IVP4zQaA95B-31" value="Scalability&lt;div&gt;Concurrency&amp;nbsp;&lt;/div&gt;&lt;div&gt;Availability&lt;/div&gt;&lt;div&gt;Performance&lt;/div&gt;&lt;div&gt;Security&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
           <mxGeometry x="95" y="414" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="EuZr4Cig5IVP4zQaA95B-32" value="Entities" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;startSize=50;" vertex="1" parent="1">
-          <mxGeometry x="80" y="600" width="200" height="170" as="geometry" />
+        <mxCell id="EuZr4Cig5IVP4zQaA95B-32" value="Entities" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;startSize=50;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="600" width="200" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="EuZr4Cig5IVP4zQaA95B-37" value="Parking Lot&lt;div&gt;Parking Floor&lt;/div&gt;&lt;div&gt;Parking Spot&lt;/div&gt;&lt;div&gt;Vehicles&lt;/div&gt;&lt;div&gt;Ticket&lt;/div&gt;&lt;div&gt;Payment&lt;/div&gt;&lt;div&gt;Gate&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#143642;" vertex="1" parent="EuZr4Cig5IVP4zQaA95B-32">
-          <mxGeometry x="45" y="50" width="90" height="130" as="geometry" />
+        <mxCell id="EuZr4Cig5IVP4zQaA95B-37" value="Parking Lot&lt;div&gt;Parking Floor&lt;/div&gt;&lt;div&gt;Parking Spot&lt;/div&gt;&lt;div&gt;Vehicles&lt;/div&gt;&lt;div&gt;Ticket&lt;/div&gt;&lt;div&gt;Payment&lt;/div&gt;&lt;div&gt;Gate(Entry/Exit)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#143642;" vertex="1" parent="EuZr4Cig5IVP4zQaA95B-32">
+          <mxGeometry x="35" y="50" width="110" height="130" as="geometry" />
         </mxCell>
         <mxCell id="EuZr4Cig5IVP4zQaA95B-35" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bspan%20style%3D%26quot%3Btext-wrap-mode%3A%20wrap%3B%26quot%3B%26gt%3BCore%20Component%20(Class%20Design%20and%20Relationship)%26lt%3B%2Fspan%26gt%3B%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3Bautosize%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3BfontColor%3D%23143642%3BfontStyle%3D1%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22250%22%20y%3D%22550%22%20width%3D%22290%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#143642;" vertex="1" parent="1">
           <mxGeometry x="40" y="558" width="20" height="30" as="geometry" />
@@ -62,37 +62,37 @@
           <mxGeometry x="-60" y="550" width="480" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EuZr4Cig5IVP4zQaA95B-41" value="&lt;b&gt;Database Design&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="900" width="200" height="30" as="geometry" />
+          <mxGeometry x="900" y="40" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EuZr4Cig5IVP4zQaA95B-44" value="id&lt;div&gt;name&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
-          <mxGeometry x="850" y="160" width="110" height="80" as="geometry" />
+          <mxGeometry x="840" y="160" width="110" height="80" as="geometry" />
         </mxCell>
         <mxCell id="EuZr4Cig5IVP4zQaA95B-45" value="&lt;b&gt;parking_lot&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="852.5" y="120" width="105" height="30" as="geometry" />
+          <mxGeometry x="845" y="120" width="105" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EuZr4Cig5IVP4zQaA95B-46" value="&lt;b&gt;parking_floor&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="120" width="80" height="30" as="geometry" />
+          <mxGeometry x="1050" y="120" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EuZr4Cig5IVP4zQaA95B-47" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;id&lt;div&gt;lot_id&lt;/div&gt;&lt;div&gt;floor_no&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
           <mxGeometry x="1040" y="160" width="110" height="100" as="geometry" />
         </mxCell>
         <mxCell id="EuZr4Cig5IVP4zQaA95B-48" value="&lt;b&gt;parking_spot&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="875" y="300" width="60" height="30" as="geometry" />
+          <mxGeometry x="855" y="300" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EuZr4Cig5IVP4zQaA95B-49" value="id&lt;div&gt;lot_id&lt;div&gt;spot_type&lt;/div&gt;&lt;div&gt;(Compact/Large/Bike)&lt;/div&gt;&lt;div&gt;is_Occupied&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
-          <mxGeometry x="852.5" y="340" width="117.5" height="150" as="geometry" />
+        <mxCell id="EuZr4Cig5IVP4zQaA95B-49" value="id&lt;div&gt;floor_id(FK -&amp;nbsp;parking_floor&lt;b&gt;)&lt;/b&gt;&lt;br&gt;&lt;div&gt;spot_type&lt;/div&gt;&lt;div&gt;(Compact/Large/Bike)&lt;/div&gt;&lt;div&gt;is_Occupied&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
+          <mxGeometry x="800" y="340" width="170" height="150" as="geometry" />
         </mxCell>
         <mxCell id="EuZr4Cig5IVP4zQaA95B-50" value="&lt;b&gt;Vehicles&lt;/b&gt;&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="300" width="60" height="30" as="geometry" />
+          <mxGeometry x="1060" y="300" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EuZr4Cig5IVP4zQaA95B-51" value="licence_plate&lt;div&gt;vehicle_type&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
           <mxGeometry x="1040" y="340" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="EuZr4Cig5IVP4zQaA95B-52" value="&lt;b&gt;Ticket&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="990" y="510" width="60" height="30" as="geometry" />
+          <mxGeometry x="970" y="510" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EuZr4Cig5IVP4zQaA95B-53" value="ticket_id&lt;div&gt;vehicle_plate&lt;/div&gt;&lt;div&gt;entry_time&lt;/div&gt;&lt;div&gt;exit_time&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
-          <mxGeometry x="960" y="550" width="150" height="110" as="geometry" />
+        <mxCell id="EuZr4Cig5IVP4zQaA95B-53" value="ticket_id&lt;div&gt;vehicle_plate(FK - Vehicles)&lt;/div&gt;&lt;div&gt;parking_spot_id(FK - parking_spot)&lt;/div&gt;&lt;div&gt;entry_time&lt;/div&gt;&lt;div&gt;exit_time&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
+          <mxGeometry x="885" y="550" width="215" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
