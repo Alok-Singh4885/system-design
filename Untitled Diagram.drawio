@@ -1,98 +1,153 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.6">
-  <diagram name="Page-1" id="5kv6gV1c2mcdYaOT0ADZ">
-    <mxGraphModel dx="2574" dy="712" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="1" adaptiveColors="simple">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.7">
+  <diagram name="Page-1" id="PM0wSZI4Hc7VXlc7psx-">
+    <mxGraphModel>
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="EuZr4Cig5IVP4zQaA95B-4" value="user operation" style="swimlane;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="50" width="190" height="130" as="geometry" />
+        <mxCell id="2" value="Library_Management" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="8" y="8" width="1451" height="659" as="geometry" />
         </mxCell>
-        <mxCell id="EuZr4Cig5IVP4zQaA95B-6" value="park a vehicles&lt;div&gt;Unpark a vehicle&lt;/div&gt;&lt;div&gt;Find available slot&lt;/div&gt;&lt;div&gt;Calculate the parking fee&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#143642;rounded=1;" vertex="1" parent="EuZr4Cig5IVP4zQaA95B-4">
-          <mxGeometry x="15" y="30" width="160" height="70" as="geometry" />
+        <mxCell id="3" value="Library_System" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="2">
+          <mxGeometry x="521" y="235" width="169" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="EuZr4Cig5IVP4zQaA95B-28" value="Functional Requirements" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#143642;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="40" width="160" height="30" as="geometry" />
+        <mxCell id="4" value="Admin_Module" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="2">
+          <mxGeometry x="237" y="46" width="1201" height="281" as="geometry" />
         </mxCell>
-        <mxCell id="EuZr4Cig5IVP4zQaA95B-7" value="vehicle types" style="swimlane;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="70" width="110" height="110" as="geometry" />
+        <mxCell id="5" value="Business_User" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="2">
+          <mxGeometry x="43" y="83" width="159" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="EuZr4Cig5IVP4zQaA95B-8" value="Car&lt;div&gt;Bike&lt;/div&gt;&lt;div&gt;Truck&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#143642;rounded=1;" vertex="1" parent="EuZr4Cig5IVP4zQaA95B-7">
-          <mxGeometry x="20" y="25" width="50" height="60" as="geometry" />
+        <mxCell id="6" value="Database" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="2">
+          <mxGeometry x="484" y="575" width="125" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="EuZr4Cig5IVP4zQaA95B-11" value="parking spot type" style="swimlane;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="460" y="90" width="110" height="90" as="geometry" />
+        <mxCell id="7" value="Reporting_Module" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="2">
+          <mxGeometry x="1175" y="424" width="188" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="EuZr4Cig5IVP4zQaA95B-12" value="campact&lt;div&gt;Large&lt;/div&gt;&lt;div&gt;Handicapped&lt;/div&gt;&lt;div&gt;Electric&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#143642;rounded=1;" vertex="1" parent="EuZr4Cig5IVP4zQaA95B-11">
-          <mxGeometry x="10" y="20" width="90" height="70" as="geometry" />
+        <mxCell id="8" value="Dashboard" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="2">
+          <mxGeometry x="1202" y="575" width="134" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="EuZr4Cig5IVP4zQaA95B-17" value="payment system" style="swimlane;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="590" y="110" width="150" height="70" as="geometry" />
+        <mxCell id="9" value="Checkout_Module" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="2">
+          <mxGeometry x="372" y="424" width="186" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="EuZr4Cig5IVP4zQaA95B-18" value="Hourly/daily rates&lt;div&gt;Online Payments&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#143642;rounded=1;" vertex="1" parent="EuZr4Cig5IVP4zQaA95B-17">
-          <mxGeometry x="15" y="20" width="120" height="40" as="geometry" />
+        <mxCell id="10" value="Admin" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="2">
+          <mxGeometry x="1059" y="83" width="105" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="EuZr4Cig5IVP4zQaA95B-19" value="Entry/Exit Gates" style="swimlane;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="240" width="290" height="70" as="geometry" />
+        <mxCell id="11" value="Monitoring_Module" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="2">
+          <mxGeometry x="1181" y="235" width="195" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="EuZr4Cig5IVP4zQaA95B-21" value="Automated Ticketing and Boom Barriers" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#143642;rounded=1;" vertex="1" parent="EuZr4Cig5IVP4zQaA95B-19">
-          <mxGeometry x="25" y="28" width="240" height="30" as="geometry" />
+        <mxCell id="12" value="Search Books" style="curved=1;startArrow=none;endArrow=block;exitX=0.91;exitY=1;entryX=0;entryY=0.1;" edge="1" parent="2" source="5" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="306" y="186" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="EuZr4Cig5IVP4zQaA95B-22" value="Admin Operations" style="swimlane;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="220" width="220" height="90" as="geometry" />
+        <mxCell id="13" value="Check Availability" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.85;entryX=0.15;entryY=-0.01;" edge="1" parent="2" source="5" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="186" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="EuZr4Cig5IVP4zQaA95B-23" value="Manage Pricing&lt;div&gt;View Occupanacy&lt;/div&gt;&lt;div&gt;Generate Reports&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#143642;rounded=1;" vertex="1" parent="EuZr4Cig5IVP4zQaA95B-22">
-          <mxGeometry x="50" y="30" width="120" height="60" as="geometry" />
+        <mxCell id="14" value="Query Database" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.8;entryX=0;entryY=0.17;" edge="1" parent="2" source="3" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="277" y="326" />
+              <mxPoint x="277" y="526" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="EuZr4Cig5IVP4zQaA95B-30" value="Non-Functional Requirement’s&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#143642;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="40" y="358" width="190" height="30" as="geometry" />
+        <mxCell id="15" value="Generate Reports" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.64;entryX=0.5;entryY=-0.01;" edge="1" parent="2" source="3" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1270" y="326" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="EuZr4Cig5IVP4zQaA95B-31" value="Scalability&lt;div&gt;Concurrency&amp;nbsp;&lt;/div&gt;&lt;div&gt;Availability&lt;/div&gt;&lt;div&gt;Performance&lt;/div&gt;&lt;div&gt;Security&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
-          <mxGeometry x="95" y="414" width="80" height="80" as="geometry" />
+        <mxCell id="16" value="Store Books" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.26;entryX=1;entryY=0.82;" edge="1" parent="2" source="6" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="910" y="526" />
+              <mxPoint x="910" y="326" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="EuZr4Cig5IVP4zQaA95B-32" value="Entities" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;startSize=50;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="600" width="200" height="180" as="geometry" />
+        <mxCell id="17" value="Store User Information" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.33;entryX=1;entryY=0.71;" edge="1" parent="2" source="6" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1057" y="526" />
+              <mxPoint x="1057" y="326" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="EuZr4Cig5IVP4zQaA95B-37" value="Parking Lot&lt;div&gt;Parking Floor&lt;/div&gt;&lt;div&gt;Parking Spot&lt;/div&gt;&lt;div&gt;Vehicles&lt;/div&gt;&lt;div&gt;Ticket&lt;/div&gt;&lt;div&gt;Payment&lt;/div&gt;&lt;div&gt;Gate(Entry/Exit)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#143642;" vertex="1" parent="EuZr4Cig5IVP4zQaA95B-32">
-          <mxGeometry x="35" y="50" width="110" height="130" as="geometry" />
+        <mxCell id="18" value="Visualize Reports" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;" edge="1" parent="2" source="7" target="8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="EuZr4Cig5IVP4zQaA95B-35" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bspan%20style%3D%26quot%3Btext-wrap-mode%3A%20wrap%3B%26quot%3B%26gt%3BCore%20Component%20(Class%20Design%20and%20Relationship)%26lt%3B%2Fspan%26gt%3B%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3Bautosize%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3BfontColor%3D%23143642%3BfontStyle%3D1%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22250%22%20y%3D%22550%22%20width%3D%22290%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="40" y="558" width="20" height="30" as="geometry" />
+        <mxCell id="19" value="Borrow Books" style="curved=1;startArrow=none;endArrow=block;exitX=0.01;exitY=0.99;entryX=0.39;entryY=-0.01;" edge="1" parent="2" source="3" target="9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="406" y="326" />
+              <mxPoint x="406" y="375" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="EuZr4Cig5IVP4zQaA95B-36" value="&lt;b&gt;Core Component (Class Design and Relationship)&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="-60" y="550" width="480" height="30" as="geometry" />
+        <mxCell id="20" value="Return Books" style="curved=1;startArrow=none;endArrow=block;exitX=0.3;exitY=0.99;entryX=0.61;entryY=-0.01;" edge="1" parent="2" source="3" target="9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="524" y="326" />
+              <mxPoint x="524" y="375" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="EuZr4Cig5IVP4zQaA95B-41" value="&lt;b&gt;Database Design&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="900" y="40" width="200" height="30" as="geometry" />
+        <mxCell id="21" value="Update Database" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.27;entryY=0;" edge="1" parent="2" source="9" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="465" y="526" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="EuZr4Cig5IVP4zQaA95B-44" value="id&lt;div&gt;name&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
-          <mxGeometry x="840" y="160" width="110" height="80" as="geometry" />
+        <mxCell id="22" value="Add Books" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.64;entryX=0.46;entryY=-0.01;" edge="1" parent="2" source="10" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="586" y="186" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="EuZr4Cig5IVP4zQaA95B-45" value="&lt;b&gt;parking_lot&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="845" y="120" width="105" height="30" as="geometry" />
+        <mxCell id="23" value="Modify User Accounts" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.69;entryX=0.75;entryY=-0.01;" edge="1" parent="2" source="10" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="723" y="186" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="EuZr4Cig5IVP4zQaA95B-46" value="&lt;b&gt;parking_floor&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="120" width="80" height="30" as="geometry" />
+        <mxCell id="24" value="Approve Book Requests" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.86;entryX=1;entryY=0.09;" edge="1" parent="2" source="10" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="905" y="186" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="EuZr4Cig5IVP4zQaA95B-47" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;id&lt;div&gt;lot_id&lt;/div&gt;&lt;div&gt;floor_no&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="160" width="110" height="100" as="geometry" />
+        <mxCell id="25" value="Monitor Transactions" style="curved=1;startArrow=none;endArrow=block;exitX=0.41;exitY=1;entryX=0.15;entryY=-0.01;" edge="1" parent="2" source="10" target="11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1086" y="186" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="EuZr4Cig5IVP4zQaA95B-48" value="&lt;b&gt;parking_spot&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="855" y="300" width="60" height="30" as="geometry" />
+        <mxCell id="26" value="Generate Alerts" style="curved=1;startArrow=none;endArrow=block;exitX=0.43;exitY=-0.01;entryX=0.93;entryY=1;" edge="1" parent="2" source="11" target="10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1240" y="186" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="EuZr4Cig5IVP4zQaA95B-49" value="id&lt;div&gt;floor_id(FK -&amp;nbsp;parking_floor&lt;b&gt;)&lt;/b&gt;&lt;br&gt;&lt;div&gt;spot_type&lt;/div&gt;&lt;div&gt;(Compact/Large/Bike)&lt;/div&gt;&lt;div&gt;is_Occupied&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
-          <mxGeometry x="800" y="340" width="170" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="EuZr4Cig5IVP4zQaA95B-50" value="&lt;b&gt;Vehicles&lt;/b&gt;&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="300" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="EuZr4Cig5IVP4zQaA95B-51" value="licence_plate&lt;div&gt;vehicle_type&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="340" width="100" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="EuZr4Cig5IVP4zQaA95B-52" value="&lt;b&gt;Ticket&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="970" y="510" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="EuZr4Cig5IVP4zQaA95B-53" value="ticket_id&lt;div&gt;vehicle_plate(FK - Vehicles)&lt;/div&gt;&lt;div&gt;parking_spot_id(FK - parking_spot)&lt;/div&gt;&lt;div&gt;entry_time&lt;/div&gt;&lt;div&gt;exit_time&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
-          <mxGeometry x="885" y="550" width="215" height="140" as="geometry" />
+        <mxCell id="27" value="Access Logs" style="curved=1;startArrow=none;endArrow=block;exitX=0.65;exitY=-0.01;entryX=1;entryY=0.79;" edge="1" parent="2" source="11" target="10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1362" y="186" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
